@@ -3,20 +3,10 @@
   <a href="https://ashwathshiva.github.io/portfolio/">EXPLORE MY PORTFOLIO →</a>
 </p>
 
----
 
-## 01 / ABOUT
-
-I'm a Computer Science and Engineering student at Vimal Jyothi Engineering College, interested in building thoughtful software solutions and solving problems through technology.
-
-I enjoy exploring new technologies, developing applications, and turning ideas into functional projects.
-
-- 🎓 Computer Science and Engineering
-- 💻 Interested in Software Development and AI
-- 🧠 Exploring RAG architectures and LLM applications
-- 🛠️ Learning through practical projects and experimentation
-
----
+<p align="center">
+  <img src="assets/about-me.svg" width="100%" alt="About Me"/>
+</p>
 
 ## 02 / TECHNICAL CAPABILITIES
 
