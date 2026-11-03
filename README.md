@@ -26,11 +26,11 @@ I enjoy exploring new technologies, developing applications, and turning ideas i
 
 **Programming & Development**
 
-Python · C · JavaScript · TypeScript · React · FastAPI
+Python · C · JavaScript 
 
 **AI & Machine Learning**
 
-Machine Learning · Deep Learning · PyTorch · TensorFlow · Scikit-learn · Librosa · RAG Architectures · Prompt Engineering
+RAG Architectures · Prompt Engineering
 
 **Databases & Infrastructure**
 
