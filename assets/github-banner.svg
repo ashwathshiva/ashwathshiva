@@ -1,1 +1,40 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF4938" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#FF4938" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="#050505"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="1050" cy="175" r="250" fill="url(#glow)"/>
+
+  <rect x="54" y="44" width="5" height="270" fill="#FF4938"/>
+
+  <text x="82" y="72" fill="#FF4938" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ASHWATH SHIVA P</text>
+
+  <text x="82" y="155" fill="#F5F5F7" font-family="Arial,sans-serif" font-size="53" font-weight="800" letter-spacing="-2">BUILDING INTELLIGENT</text>
+  <text x="82" y="215" fill="#FF4938" font-family="Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2">THINGS.</text>
+
+  <text x="85" y="260" fill="#A1A1AA" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">MAKING TECHNOLOGY MATTER.</text>
+
+  <line x1="82" y1="292" x2="1118" y2="292" stroke="#ffffff" stroke-opacity=".18"/>
+
+  <text x="82" y="322" fill="#71717A" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">COMPUTER SCIENCE</text>
+  <text x="370" y="322" fill="#FF4938" font-family="Arial,sans-serif" font-size="12">/</text>
+  <text x="395" y="322" fill="#71717A" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">SOFTWARE DEVELOPMENT</text>
+  <text x="755" y="322" fill="#FF4938" font-family="Arial,sans-serif" font-size="12">/</text>
+  <text x="780" y="322" fill="#71717A" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">ARTIFICIAL INTELLIGENCE</text>
+
+  <text x="1115" y="72" text-anchor="end" fill="#FF4938" font-family="Arial,sans-serif" font-size="13">01 — PORTFOLIO</text>
+  <circle cx="1090" cy="175" r="72" fill="none" stroke="#FF4938" stroke-opacity=".3"/>
+  <circle cx="1090" cy="175" r="55" fill="none" stroke="#FF4938" stroke-opacity=".5"/>
+  <path d="M1060 175H1120M1090 145V205" stroke="#FF4938" stroke-opacity=".65" stroke-width="1"/>
+  <circle cx="1090" cy="175" r="5" fill="#FF4938"/>
+</svg>
+
