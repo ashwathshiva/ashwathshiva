@@ -1,16 +1,37 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 900 110">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" fill="none">
   <defs>
-    <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".05"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity="0.045" fill="none"/>
     </pattern>
   </defs>
-  <rect width="1200" height="190" fill="#050505"/>
-  <rect width="1200" height="190" fill="url(#g)"/>
-  <path d="M24 50V24H50M1150 24H1176V50" fill="none" stroke="#FF4938" stroke-width="2"/>
-  <text x="65" y="94" fill="#F5F5F7" font-family="Arial,sans-serif" font-size="58" font-weight="800">01 /</text>
-  <text x="235" y="94" fill="#FF4938" font-family="Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="1">ABOUT ME</text>
-  <path d="M65 120H1135" stroke="#FF4938" stroke-opacity=".7"/>
-  <text x="65" y="153" fill="#A1A1AA" font-family="Arial,sans-serif" font-size="15" letter-spacing="4">GET TO KNOW THE PERSON BEHIND THE CODE.</text>
-  <text x="1135" y="153" text-anchor="end" fill="#555" font-family="Arial,sans-serif" font-size="13">PROFILE / 001</text>
+
+  <rect width="900" height="110" rx="10" fill="#080808"/>
+  <rect width="900" height="110" rx="10" fill="url(#grid)"/>
+
+  <rect x="0" y="0" width="4" height="110" rx="2" fill="#FF4938"/>
+
+  <text x="35" y="46"
+        fill="#FF4938"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        font-weight="700"
+        letter-spacing="3">01 / INTRODUCTION</text>
+
+  <text x="35" y="78"
+        fill="#F5F5F7"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="25"
+        font-weight="700"
+        letter-spacing="1">ABOUT ME</text>
+
+  <text x="865" y="57"
+        text-anchor="end"
+        fill="#777777"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10"
+        letter-spacing="2">GET TO KNOW ME</text>
+
+  <path d="M35 94H865" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <circle cx="865" cy="94" r="3" fill="#FF4938"/>
 </svg>
