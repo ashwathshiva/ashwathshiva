@@ -1,12 +1,7 @@
 ![Ashwath Shiva P](assets/github-banner.svg)
-# ASHWATH SHIVA P
-
-### BUILDING INTELLIGENT THINGS.  
-**MAKING TECHNOLOGY MATTER.**
-
-Computer Science and Engineering student focused on software development, artificial intelligence, and building practical digital experiences.
-
-[**EXPLORE MY PORTFOLIO →**](https://ashwathshiva.github.io/portfolio/)
+<p align="center">
+  <a href="https://ashwathshiva.github.io/portfolio/">EXPLORE MY PORTFOLIO →</a>
+</p>
 
 ---
 
