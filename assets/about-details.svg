@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#fff" stroke-opacity=".04"/>
+    </pattern>
+    <linearGradient id="card" x2="1" y2="1">
+      <stop stop-color="#151515"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="570" fill="#050505"/>
+  <rect width="1200" height="570" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="534" fill="none" stroke="#555" stroke-opacity=".55"/>
+  <path d="M18 55V18H55M1145 18H1182V55" fill="none" stroke="#FF4938" stroke-width="2"/>
+
+  <text x="65" y="105" fill="#F5F5F7" font-family="Arial,sans-serif" font-size="58" font-weight="800">CURIOUS BY NATURE.</text>
+  <text x="65" y="170" fill="#FF4938" font-family="Arial,sans-serif" font-size="58" font-weight="800">BUILT TO CREATE.</text>
+
+  <rect x="67" y="207" width="5" height="112" fill="#FF4938"/>
+
+  <g font-family="Arial,sans-serif" font-size="19" fill="#D4D4D8">
+    <text x="92" y="235">
+      <tspan x="92" dy="0">I'm a Computer Science and Engineering student at Vimal Jyothi</tspan>
+      <tspan x="92" dy="29">Engineering College, focused on building thoughtful software</tspan>
+      <tspan x="92" dy="29">solutions and solving problems through technology.</tspan>
+    </text>
+    <text x="92" y="345" fill="#A1A1AA" font-size="17">
+      <tspan x="92" dy="0">Interested in Artificial Intelligence, Machine Learning and Software</tspan>
+      <tspan x="92" dy="27">Development. I enjoy exploring technologies and building practical</tspan>
+      <tspan x="92" dy="27">applications through experimentation and continuous learning.</tspan>
+    </text>
+  </g>
+
+  <!-- Detail cards -->
+  <g font-family="Arial,sans-serif">
+    <rect x="65" y="425" width="520" height="55" rx="3" fill="url(#card)" stroke="#555"/>
+    <rect x="600" y="425" width="520" height="55" rx="3" fill="url(#card)" stroke="#555"/>
+    <rect x="65" y="490" width="520" height="48" rx="3" fill="url(#card)" stroke="#555"/>
+    <rect x="600" y="490" width="520" height="48" rx="3" fill="url(#card)" stroke="#555"/>
+
+    <g fill="#FF4938" font-size="15" font-weight="bold">
+      <text x="85" y="459">01 / EDUCATION</text>
+      <text x="620" y="459">02 / FOCUS</text>
+      <text x="85" y="520">03 / APPROACH</text>
+      <text x="620" y="520">04 / MINDSET</text>
+    </g>
+    <g fill="#D4D4D8" font-size="14">
+      <text x="250" y="459">B.Tech · Computer Science &amp; Engineering</text>
+      <text x="765" y="459">AI · ML · Software Development</text>
+      <text x="250" y="520">Learn · Experiment · Build</text>
+      <text x="765" y="520">Always Exploring</text>
+    </g>
+  </g>
+
+  <text x="65" y="560" fill="#FF4938" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">LESS TALK. MORE BUILDING.</text>
+  <text x="1135" y="560" text-anchor="end" fill="#666" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">ASHWATH SHIVA P</text>
+</svg>
