@@ -1,3 +1,4 @@
+![Ashwath Shiva P](assets/github-banner.svg)
 # ASHWATH SHIVA P
 
 ### BUILDING INTELLIGENT THINGS.  
