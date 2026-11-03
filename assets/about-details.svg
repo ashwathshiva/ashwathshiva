@@ -1,59 +1,106 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" fill="none">
   <defs>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#fff" stroke-opacity=".04"/>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#FFFFFF" stroke-opacity="0.035" fill="none"/>
     </pattern>
-    <linearGradient id="card" x2="1" y2="1">
-      <stop stop-color="#151515"/>
-      <stop offset="1" stop-color="#090909"/>
-    </linearGradient>
   </defs>
 
-  <rect width="1200" height="570" fill="#050505"/>
-  <rect width="1200" height="570" fill="url(#grid)"/>
-  <rect x="18" y="18" width="1164" height="534" fill="none" stroke="#555" stroke-opacity=".55"/>
-  <path d="M18 55V18H55M1145 18H1182V55" fill="none" stroke="#FF4938" stroke-width="2"/>
+  <rect width="900" height="400" rx="10" fill="#080808"/>
+  <rect width="900" height="400" rx="10" fill="url(#grid)"/>
 
-  <text x="65" y="105" fill="#F5F5F7" font-family="Arial,sans-serif" font-size="58" font-weight="800">CURIOUS BY NATURE.</text>
-  <text x="65" y="170" fill="#FF4938" font-family="Arial,sans-serif" font-size="58" font-weight="800">BUILT TO CREATE.</text>
+  <!-- Introduction -->
+  <text x="35" y="43"
+        fill="#FF4938"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10"
+        font-weight="700"
+        letter-spacing="2.5">THE PERSON BEHIND THE PROJECTS</text>
 
-  <rect x="67" y="207" width="5" height="112" fill="#FF4938"/>
+  <text x="35" y="81"
+        fill="#F5F5F7"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="27"
+        font-weight="700">CURIOUS BY NATURE.</text>
 
-  <g font-family="Arial,sans-serif" font-size="19" fill="#D4D4D8">
-    <text x="92" y="235">
-      <tspan x="92" dy="0">I'm a Computer Science and Engineering student at Vimal Jyothi</tspan>
-      <tspan x="92" dy="29">Engineering College, focused on building thoughtful software</tspan>
-      <tspan x="92" dy="29">solutions and solving problems through technology.</tspan>
-    </text>
-    <text x="92" y="345" fill="#A1A1AA" font-size="17">
-      <tspan x="92" dy="0">Interested in Artificial Intelligence, Machine Learning and Software</tspan>
-      <tspan x="92" dy="27">Development. I enjoy exploring technologies and building practical</tspan>
-      <tspan x="92" dy="27">applications through experimentation and continuous learning.</tspan>
-    </text>
+  <text x="35" y="112"
+        fill="#F5F5F7"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="27"
+        font-weight="700">BUILT TO CREATE.</text>
+
+  <rect x="35" y="132" width="42" height="3" rx="1.5" fill="#FF4938"/>
+
+  <text x="35" y="165"
+        fill="#C4C4C8"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13">
+    <tspan x="35" dy="0">I'm Ashwath Shiva P, a Computer Science and Engineering student at</tspan>
+    <tspan x="35" dy="21">Vimal Jyothi Engineering College, Kannur. I enjoy exploring technology</tspan>
+    <tspan x="35" dy="21">and building practical solutions through code.</tspan>
+  </text>
+
+  <text x="35" y="240"
+        fill="#888888"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        letter-spacing="0.5">
+    Interested in Artificial Intelligence, Machine Learning and Software Development.
+  </text>
+
+  <!-- Information cards -->
+  <g>
+    <rect x="35" y="270" width="195" height="88" rx="7"
+          fill="#101012" stroke="#292929"/>
+    <rect x="35" y="270" width="3" height="88" rx="1.5" fill="#FF4938"/>
+    <text x="53" y="295" fill="#FF4938" font-family="Arial" font-size="9"
+          font-weight="700" letter-spacing="1.5">01 / EDUCATION</text>
+    <text x="53" y="321" fill="#F5F5F7" font-family="Arial"
+          font-size="13" font-weight="700">B.Tech CSE</text>
+    <text x="53" y="341" fill="#999999" font-family="Arial"
+          font-size="10">VJEC · Kerala</text>
   </g>
 
-  <!-- Detail cards -->
-  <g font-family="Arial,sans-serif">
-    <rect x="65" y="425" width="520" height="55" rx="3" fill="url(#card)" stroke="#555"/>
-    <rect x="600" y="425" width="520" height="55" rx="3" fill="url(#card)" stroke="#555"/>
-    <rect x="65" y="490" width="520" height="48" rx="3" fill="url(#card)" stroke="#555"/>
-    <rect x="600" y="490" width="520" height="48" rx="3" fill="url(#card)" stroke="#555"/>
-
-    <g fill="#FF4938" font-size="15" font-weight="bold">
-      <text x="85" y="459">01 / EDUCATION</text>
-      <text x="620" y="459">02 / FOCUS</text>
-      <text x="85" y="520">03 / APPROACH</text>
-      <text x="620" y="520">04 / MINDSET</text>
-    </g>
-    <g fill="#D4D4D8" font-size="14">
-      <text x="250" y="459">B.Tech · Computer Science &amp; Engineering</text>
-      <text x="765" y="459">AI · ML · Software Development</text>
-      <text x="250" y="520">Learn · Experiment · Build</text>
-      <text x="765" y="520">Always Exploring</text>
-    </g>
+  <g>
+    <rect x="245" y="270" width="195" height="88" rx="7"
+          fill="#101012" stroke="#292929"/>
+    <rect x="245" y="270" width="3" height="88" rx="1.5" fill="#FF4938"/>
+    <text x="263" y="295" fill="#FF4938" font-family="Arial" font-size="9"
+          font-weight="700" letter-spacing="1.5">02 / FOCUS</text>
+    <text x="263" y="321" fill="#F5F5F7" font-family="Arial"
+          font-size="13" font-weight="700">AI &amp; ML</text>
+    <text x="263" y="341" fill="#999999" font-family="Arial"
+          font-size="10">Intelligent systems</text>
   </g>
 
-  <text x="65" y="560" fill="#FF4938" font-family="Arial,sans-serif" font-size="11" letter-spacing="4">LESS TALK. MORE BUILDING.</text>
-  <text x="1135" y="560" text-anchor="end" fill="#666" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">ASHWATH SHIVA P</text>
+  <g>
+    <rect x="455" y="270" width="195" height="88" rx="7"
+          fill="#101012" stroke="#292929"/>
+    <rect x="455" y="270" width="3" height="88" rx="1.5" fill="#FF4938"/>
+    <text x="473" y="295" fill="#FF4938" font-family="Arial" font-size="9"
+          font-weight="700" letter-spacing="1.5">03 / APPROACH</text>
+    <text x="473" y="321" fill="#F5F5F7" font-family="Arial"
+          font-size="13" font-weight="700">Build &amp; Explore</text>
+    <text x="473" y="341" fill="#999999" font-family="Arial"
+          font-size="10">Learn by creating</text>
+  </g>
+
+  <g>
+    <rect x="665" y="270" width="200" height="88" rx="7"
+          fill="#101012" stroke="#292929"/>
+    <rect x="665" y="270" width="3" height="88" rx="1.5" fill="#FF4938"/>
+    <text x="683" y="295" fill="#FF4938" font-family="Arial" font-size="9"
+          font-weight="700" letter-spacing="1.5">04 / MINDSET</text>
+    <text x="683" y="321" fill="#F5F5F7" font-family="Arial"
+          font-size="13" font-weight="700">Always Learning</text>
+    <text x="683" y="341" fill="#999999" font-family="Arial"
+          font-size="10">Improve every day</text>
+  </g>
+
+  <!-- Footer -->
+  <path d="M35 377H865" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="35" y="391" fill="#777777" font-family="Arial"
+        font-size="8" letter-spacing="1.5">ASHWATH SHIVA P</text>
+  <text x="865" y="391" text-anchor="end" fill="#FF4938"
+        font-family="Arial" font-size="8" letter-spacing="1.5">01 — ABOUT</text>
 </svg>
