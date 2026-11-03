@@ -5,7 +5,11 @@
 
 
 <p align="center">
-  <img src="assets/about-me.svg" width="100%" alt="About Me"/>
+  <img src="assets/about-heading.svg" width="100%" alt="About Me"/>
+</p>
+
+<p align="center">
+  <img src="assets/about-details.svg" width="100%" alt="About Ashwath Shiva"/>
 </p>
 
 ## 02 / TECHNICAL CAPABILITIES
