@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
+  <defs>
+    <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="190" fill="#050505"/>
+  <rect width="1200" height="190" fill="url(#g)"/>
+  <path d="M24 50V24H50M1150 24H1176V50" fill="none" stroke="#FF4938" stroke-width="2"/>
+  <text x="65" y="94" fill="#F5F5F7" font-family="Arial,sans-serif" font-size="58" font-weight="800">01 /</text>
+  <text x="235" y="94" fill="#FF4938" font-family="Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="1">ABOUT ME</text>
+  <path d="M65 120H1135" stroke="#FF4938" stroke-opacity=".7"/>
+  <text x="65" y="153" fill="#A1A1AA" font-family="Arial,sans-serif" font-size="15" letter-spacing="4">GET TO KNOW THE PERSON BEHIND THE CODE.</text>
+  <text x="1135" y="153" text-anchor="end" fill="#555" font-family="Arial,sans-serif" font-size="13">PROFILE / 001</text>
+</svg>
